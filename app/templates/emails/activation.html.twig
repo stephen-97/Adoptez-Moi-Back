@@ -1,0 +1,5 @@
+<h1>Bonjour,</h1>
+    <p>Vous avez effectué une inscription sur notre application "Prenez moi". <br>
+        Si vous n'êtes pas à l'origine de cette inscription, ignorez ce mail.
+    </p>
+    <p><a href="{{ absolute_url(path('confirm_account', {'token': token})) }}">Cliquez ici pour activer votre compte</a></p>
